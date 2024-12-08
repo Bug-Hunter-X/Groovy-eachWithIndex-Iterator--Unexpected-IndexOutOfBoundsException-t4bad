@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in Groovy related to the `eachWithIndex` iterator.  The iterator continues iteration past the end of the list causing an `IndexOutOfBoundsException`. The solution provides a safe way to handle list iteration using `size()` within the loop condition.
